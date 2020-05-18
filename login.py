@@ -4,10 +4,9 @@ _userName = ''
 
 while not _userName:
     print('Enter your username: ')
-    if _userName == False:
-        print('Invalid username. Try again.')
     _userName = input()
     
+print('Your username is \'' + _userName + '\'')
 
 
 _counter = 0
